@@ -1,0 +1,88 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .header__list li {
+    margin: -77px 0px 45px 69px;
+    list-style: none;
+    text-align: -webkit-center;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__menu {
+  position: fixed;
+  left: 0px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  padding: 100px 0px 0px 0px;
+  display: none;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.knopk2 p {
+  padding: 67px 0px 0px 0px;
+  margin-right: 30px;
+  justify-content: right;
+  display: flex;
+  align-items: right;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  
+  .header__list li {
+    margin: 70px 0px 45px 0px;
+    list-style: none;
+    text-align: -webkit-left;
+}
+
+.header__list {
+  display: block;
+  position: relative;
+  z-index: 3;
+  padding: 0px 20px;
+}
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* */
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */
+}
+/*==========  Mobile First  ========== */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /* */
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* */
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* */
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* */
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* */
+}
+
+/*# sourceMappingURL=adaptive.css.map */
